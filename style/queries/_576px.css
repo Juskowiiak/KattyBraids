@@ -12,16 +12,19 @@
     min-height: 180px !important;
   }
   /* _____________THEME2_________________ */
-
+  .theme2 {
+    height: 85% !important;
+  }
   .theme2-pict-title {
     width: 380px !important;
   }
   .theme2-part1-pict {
-    width: 320px !important;
-    height: 320px !important;
+    width: 340px !important;
+    height: 340px !important;
     border-bottom: 0 !important;
+    padding: 10px !important;
   }
   .theme2-part1-text {
-    width: 380px !important;
+    width: 370px !important;
   }
 }
