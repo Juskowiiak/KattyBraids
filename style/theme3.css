@@ -1,2 +1,46 @@
 @import url(../style.css);
 @import url(./query.css);
+
+.theme3 {
+  border: 1px solid orange;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+.theme3-box {
+  width: 400px;
+  height: 300px;
+  position: relative;
+  border-radius: 10px;
+  transition: 0.3s;
+}
+.theme3-box::after {
+  position: absolute;
+  content: "";
+  width: 45px;
+  height: 45px;
+  top: -5%;
+  left: -4%;
+  background-color: blue;
+  border: 3px solid darkblue;
+  z-index: -1;
+  border-radius: 15px;
+}
+.theme3-box::before {
+  position: absolute;
+  content: "";
+  width: 45px;
+  height: 45px;
+  bottom: -5%;
+  right: -4%;
+  background-color: blue;
+  border: 3px solid darkblue;
+  z-index: -1;
+  border-radius: 15px;
+}
+.theme3-box img {
+  border-radius: 10px;
+  background-color: #fff;
+}

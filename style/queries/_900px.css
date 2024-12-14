@@ -60,4 +60,15 @@
     padding-block: 10px;
     width: 450px !important;
   }
+  /*_____________________ Theme3_______________*/
+
+  .theme3 {
+    border: 1px solid greenyellow !important;
+    flex-direction: column-reverse;
+    gap: 10%;
+  }
+  .theme3-box {
+    width: 360px !important;
+    height: 270px !important;
+  }
 }

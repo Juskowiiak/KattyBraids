@@ -16,15 +16,21 @@
     height: 85% !important;
   }
   .theme2-pict-title {
-    width: 380px !important;
+    width: 370px !important;
   }
   .theme2-part1-pict {
-    width: 340px !important;
-    height: 340px !important;
+    width: 330px !important;
+    height: 330px !important;
     border-bottom: 0 !important;
     padding: 10px !important;
   }
   .theme2-part1-text {
     width: 370px !important;
+  }
+  /*_____________________ Theme3_______________*/
+
+  .theme3-box {
+    width: 340px !important;
+    height: 250px !important;
   }
 }

@@ -9,6 +9,7 @@
   justify-content: center;
   align-items: center;
   flex-direction: column;
+  display: none;
 }
 /* _____________________ PICT-TITLE _____________________ */
 .theme2-pict-title {
