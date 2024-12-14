@@ -27,10 +27,12 @@ nav::after {
 /* _____________________LOGOTIPO_________________________ */
 .nav-logo {
   height: 100%;
-  padding-block: 5px;
   width: 100px;
   position: relative;
   cursor: pointer;
+}
+.nav-logo img {
+  object-fit: contain;
 }
 /* _____________________NAVEGADOR_________________________ */
 .navegador {
