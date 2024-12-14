@@ -11,8 +11,8 @@
     border-radius: 0px 0 0 10px;
     z-index: 5;
     align-items: center;
-    justify-content: space-evenly;
-    gap: 0;
+    justify-content: center;
+    gap: 5%;
   }
   .navegador li:not(:last-child) {
     border: 1px solid blue;
