@@ -4,11 +4,16 @@
     height: 260px !important;
     width: 360px !important;
   }
-  /*_____________________ Theme1*/
+  /*_____________________ Theme1__________________*/
 
   .theme1 ul li {
-    border: 3px solid orange !important;
+    border: 3px solid rgb(219, 19, 186) !important;
     min-width: 180px !important;
     min-height: 180px !important;
+  }
+  /* _____________THEME2_________________ */
+
+  .theme2-pict-title {
+    width: 420px !important;
   }
 }

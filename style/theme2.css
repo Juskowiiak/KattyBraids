@@ -1,0 +1,40 @@
+@import url(../style.css);
+@import url(./query.css);
+
+.theme2 {
+  border: 1px solid blue;
+  height: 100%;
+  width: 100%;
+}
+/* _____________________ PICT-TITLE _____________________ */
+.theme2-pict-title {
+  border: 3px solid pink;
+  width: 500px;
+  margin-inline: auto;
+  margin-bottom: 3%;
+}
+/* _____________________ THEME2-PART1 _____________________ */
+.theme2-part1 {
+  border: 3px solid rgb(255, 10, 10);
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.theme2-part1-pict {
+  border: 5px solid blue;
+  width: 500px;
+  height: 500px;
+  padding: 16px;
+  transition: 0.3s;
+}
+.theme2-part1-text {
+  min-height: 180px;
+  transition: 0.3s;
+  display: flex;
+  align-items: center;
+  color: #fff;
+  background-color: blue;
+  width: 400px;
+}
+/* _____________________ THEME2-PART2 _____________________ */
