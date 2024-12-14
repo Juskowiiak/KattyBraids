@@ -8,6 +8,7 @@
   display: flex;
   justify-content: space-evenly;
   align-items: center;
+  display: none;
 }
 .theme3-box {
   width: 400px;

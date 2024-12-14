@@ -3,6 +3,7 @@
 @import url(./style/theme1.css);
 @import url(./style/theme2.css);
 @import url(./style/theme3.css);
+@import url(./style/gallery.css);
 * {
   box-sizing: border-box;
   padding: 0;
