@@ -4,4 +4,10 @@
     height: 230px !important;
     width: 86% !important;
   }
+  /*_____________________ Theme1*/
+  .theme1 ul li {
+    border: 3px solid orange !important;
+    min-width: 140px !important;
+    min-height: 140px !important;
+  }
 }

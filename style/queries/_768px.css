@@ -1,4 +1,11 @@
 @media screen and (max-width: 768px) {
   .main-info {
   }
+  /*_____________________ Theme1*/
+
+  .theme1 ul li {
+    border: 3px solid red !important;
+    min-width: 220px;
+    min-height: 220px;
+  }
 }

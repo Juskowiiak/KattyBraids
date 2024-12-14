@@ -4,4 +4,11 @@
     height: 260px !important;
     width: 360px !important;
   }
+  /*_____________________ Theme1*/
+
+  .theme1 ul li {
+    border: 3px solid orange !important;
+    min-width: 180px !important;
+    min-height: 180px !important;
+  }
 }
