@@ -14,6 +14,14 @@
   /* _____________THEME2_________________ */
 
   .theme2-pict-title {
-    width: 420px !important;
+    width: 380px !important;
+  }
+  .theme2-part1-pict {
+    width: 320px !important;
+    height: 320px !important;
+    border-bottom: 0 !important;
+  }
+  .theme2-part1-text {
+    width: 380px !important;
   }
 }

@@ -12,6 +12,7 @@
   width: 500px;
   margin-inline: auto;
   margin-bottom: 3%;
+  transition: 0.3s;
 }
 /* _____________________ THEME2-PART1 _____________________ */
 .theme2-part1 {
