@@ -73,10 +73,10 @@
   }
   /* _____________THEME5_________________ */
   .box {
-    min-width: 210px;
+    min-width: 210px !important;
   }
   .cards__container {
-    height: 60%;
+    height: 60% !important;
   }
   .box:nth-child(1) {
     left: 36%;

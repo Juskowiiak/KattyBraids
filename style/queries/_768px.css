@@ -16,11 +16,11 @@
   }
   /* _____________________THEME5_______________________ */
   .box {
-    min-width: 200px;
-    height: 90%;
+    min-width: 200px !important;
+    height: 90% !important;
   }
   .cards__container {
-    height: 50%;
+    height: 50% !important;
   }
   .box:nth-child(1) {
     left: 43%;
