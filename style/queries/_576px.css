@@ -42,4 +42,17 @@
     width: 260px !important;
     box-shadow: 3px 3px 3px rgb(50, 216, 8);
   }
+  /* _____________________THEME5_______________________ */
+  .box:nth-child(1) {
+    left: 52%;
+  }
+  .box:nth-child(2) {
+    left: 24%;
+  }
+  .box:nth-child(4) {
+    left: -24%;
+  }
+  .box:nth-child(5) {
+    left: -52%;
+  }
 }

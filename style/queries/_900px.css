@@ -71,4 +71,29 @@
     width: 360px !important;
     height: 270px !important;
   }
+  /* _____________THEME5_________________ */
+  .box {
+    min-width: 210px;
+  }
+  .cards__container {
+    height: 60%;
+  }
+  .box:nth-child(1) {
+    left: 36%;
+  }
+  .box:nth-child(2) {
+    left: 17%;
+  }
+  .box:nth-child(4) {
+    left: -17%;
+  }
+  .box:nth-child(5) {
+    left: -36%;
+  }
+  .box:nth-child(2n) {
+    transform: scale(0.8);
+  }
+  .box:nth-child(4n + 1) {
+    transform: scale(0.7);
+  }
 }
