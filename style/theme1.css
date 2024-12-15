@@ -9,7 +9,6 @@
   justify-content: center;
   align-items: center;
   gap: 10%;
-  display: none;
 }
 .theme1 ul {
   border: 1px solid purple;
@@ -17,9 +16,10 @@
   display: flex;
   align-items: center;
   justify-content: center;
-  gap: 10%;
+  gap: 5%;
   flex-wrap: wrap;
   transition: 1s;
+  padding-inline: 20px;
 }
 .theme1 ul li {
   border: 1px solid blue;
@@ -31,6 +31,9 @@
   justify-content: center;
   align-items: flex-end;
   transition: 1s;
+}
+.theme1-pict img {
+  object-fit: cover;
 }
 .theme1-pict {
   position: absolute;

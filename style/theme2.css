@@ -9,7 +9,6 @@
   justify-content: center;
   align-items: center;
   flex-direction: column;
-  display: none;
 }
 /* _____________________ PICT-TITLE _____________________ */
 .theme2-pict-title {
@@ -36,6 +35,9 @@
   height: 500px;
   padding: 16px;
   transition: 0.3s;
+}
+.theme2-part1-pict img {
+  object-fit: cover;
 }
 .theme2-part1-text {
   min-height: 180px;

@@ -50,15 +50,15 @@
     margin-bottom: 10% !important;
   }
   .theme2-part1-pict {
-    width: 400px !important;
-    height: 400px !important;
+    width: 420px;
+    height: 420px;
     border-bottom: 0 !important;
   }
   .theme2-part1-text {
     min-height: auto !important;
     justify-content: center;
     padding-block: 10px;
-    width: 450px !important;
+    width: 460px !important;
   }
   /*_____________________ Theme3_______________*/
 

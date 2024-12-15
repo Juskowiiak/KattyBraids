@@ -9,7 +9,6 @@
   align-items: center;
   text-align: center;
   position: relative;
-  display: none;
 }
 .gallery-text {
 }
@@ -24,7 +23,7 @@
 /* __________________ GALLERY-PHOTO_________________*/
 .gallery-photo {
   border: 1px solid green;
-  position: absolute;
+  position: fixed;
   top: 0;
   left: 0;
   width: 100%;
@@ -37,6 +36,7 @@
   justify-content: center;
   gap: 20px;
   padding-top: 8%;
+  z-index: 15;
   display: none;
 }
 /* o ultimo filho é o botao fechar*/

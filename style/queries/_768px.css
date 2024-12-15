@@ -6,7 +6,10 @@
     min-width: 220px;
     min-height: 220px;
   }
-
+  /* _____________________Theme2______________________*/
+  .theme2-part1-pict {
+    background-color: pink;
+  }
   /*______________________Theme4______________________*/
   .theme4 {
     height: 60%;
