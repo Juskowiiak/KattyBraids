@@ -1,19 +1,21 @@
 @import url(../style.css);
 @import url(./query.css);
+
 main {
   position: relative;
-  height: 100%;
+  top: 10%;
+  height: 90%;
   width: 100%;
   overflow: hidden;
+  background-image: url("../pict/header_main/back01.png");
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
 }
 
-.main-back-img {
-  height: 100%;
-  width: auto;
-  position: relative;
-  z-index: 0;
-}
-.main-back-img::after {
+main:after {
   position: absolute;
   content: "";
   top: 0;
@@ -21,31 +23,26 @@ main {
   width: 100%;
   height: 100%;
   background-color: #000;
-  opacity: 0.5;
+  opacity: 0.8;
   z-index: 0;
 }
 /* ________________________________________________*/
 
 .main-info {
-  position: absolute;
+  position: relative;
   z-index: 3;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  height: 400px;
-  width: 670px;
+  height: auto;
+  width: auto;
   text-align: center;
   transition: 0.3s;
 }
 .title-img {
   position: relative;
-  width: 100%;
-  height: 100%;
   object-fit: contain;
+  border: 5px solid #fff;
 }
 .title-img img {
-  border: 7px solid #fff;
-  object-fit: contain;
+  object-fit: cover;
 }
 /* ao passar rato por cima n aparece o title */
 .title-img::after {
@@ -59,14 +56,37 @@ main {
 }
 .marcacao {
   text-align: center;
-  border: 1px solid red;
-  margin-top: 10px;
+  border: 4px solid var(--cor6);
+  margin-top: 20px;
   display: inline-flex;
-  border-radius: 8px;
-
-  padding: 5px 8px;
+  border-radius: 10px;
+  background-color: var(--cor5);
+  padding: 0.3rem 1rem;
   cursor: pointer;
+  font-family: var(--letra1);
+  transition: 0.5s;
+  animation: title 2s infinite alternate-reverse linear;
+}
+.marcacao:hover {
+  background-color: #fff;
+  border: 4px solid var(--cor5);
 }
 .marcacao a {
   color: #fff;
+  font-size: 2.7vh;
+}
+.marcacao:hover a {
+  color: var(--cor5);
+}
+
+/* __________Animation_________________*/
+
+@keyframes title {
+  from {
+    transform: scale(1);
+  }
+  to {
+    transform: scale(1.1);
+    border: 4px solid var(--cor6);
+  }
 }

@@ -1,9 +1,8 @@
 @media screen and (max-width: 576px) {
   .main-info {
-    border: 2px solid rgb(73, 212, 18);
-    height: 260px !important;
-    width: 360px !important;
+    width: 85%;
   }
+
   /*_____________________ Theme1__________________*/
 
   .theme1 ul li {
