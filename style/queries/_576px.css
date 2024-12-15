@@ -33,4 +33,10 @@
     width: 320px !important;
     height: 240px !important;
   }
+  /*_____________________ Gallery________________________*/
+  .gallery-photo li {
+    height: 250px !important;
+    width: 250px !important;
+    box-shadow: 3px 3px 3px rgb(50, 216, 8);
+  }
 }
