@@ -1,8 +1,3 @@
-@media screen and (max-width: 901px) {
-  body {
-    overflow-y: scroll;
-  }
-}
 @media screen and (max-width: 900px) {
   .navegador {
     display: none;
@@ -13,10 +8,11 @@
     height: 100vh;
     width: 100%;
     border-radius: 0px 0 0 10px;
-    z-index: 5;
+    z-index: 9;
     align-items: center;
     justify-content: center;
     gap: 10%;
+    overflow-y: hidden;
   }
   .navegador::after {
     position: absolute;
@@ -38,7 +34,7 @@
   }
   /*ultimo filho é o botao fecha*/
   .navegador li:not(:last-child) {
-    width: 50%;
+    width: 70%;
     display: flex;
     justify-content: center;
     align-items: center;

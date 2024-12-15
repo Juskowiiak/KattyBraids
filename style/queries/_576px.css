@@ -1,8 +1,8 @@
 @media screen and (max-width: 576px) {
   main {
-    background-size: 130% 100%;
-    padding-bottom: 10% !important;
-    border: 2px solid red;
+    background-size: 120% 100%;
+    padding-bottom: 14% !important;
+
   }
   .main-info {
     width: 85%;
