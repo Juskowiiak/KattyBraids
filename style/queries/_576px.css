@@ -1,6 +1,8 @@
 @media screen and (max-width: 576px) {
   .main-info {
     width: 85%;
+    padding-top: -10%;
+    background-size: 130% 100%;
   }
 
   /*_____________________ Theme1__________________*/

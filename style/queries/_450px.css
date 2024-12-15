@@ -1,6 +1,5 @@
 @media screen and (max-width: 450px) {
   .main-info {
-    border: 2px solid rgb(223, 247, 12);
     height: 230px !important;
     width: 86% !important;
   }
