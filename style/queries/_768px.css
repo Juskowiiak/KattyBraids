@@ -1,11 +1,19 @@
 @media screen and (max-width: 768px) {
   .main-info {
   }
-  /*_____________________ Theme1 ___________*/
+  /*_____________________ Theme1 ___________________*/
 
   .theme1 ul li {
     border: 3px solid red !important;
     min-width: 220px;
     min-height: 220px;
+  }
+
+  /*______________________Theme4______________________*/
+  .theme4 {
+    height: 60%;
+  }
+  .theme4-pict {
+    border: 3px solid red !important;
   }
 }

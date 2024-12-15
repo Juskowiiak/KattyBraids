@@ -1,0 +1,17 @@
+@import url(../style.css);
+@import url(./query.css);
+
+.theme4 {
+  border: 1px solid red;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-inline: 5%;
+}
+.theme4-pict {
+  border: 1px solid blue;
+  transition: 0.5s;
+}
+.theme4-pict img {
+  object-fit: cover;
+}

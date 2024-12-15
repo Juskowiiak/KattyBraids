@@ -34,9 +34,12 @@
     height: 240px !important;
   }
   /*_____________________ Gallery________________________*/
+  .gallery-photo {
+    gap: 30px !important;
+  }
   .gallery-photo li {
-    height: 250px !important;
-    width: 250px !important;
+    height: 260px !important;
+    width: 260px !important;
     box-shadow: 3px 3px 3px rgb(50, 216, 8);
   }
 }
