@@ -2,11 +2,14 @@
 @import url(./query.css);
 
 .theme4 {
+  height: 100%;
+  width: 100%;
+  position: relative;
   border: 1px solid red;
-  display: flex;
   justify-content: center;
   align-items: center;
-  padding-inline: 5%;
+  padding-inline: 2%;
+  display: none;
 }
 .theme4-pict {
   border: 1px solid blue;
