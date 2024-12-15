@@ -75,6 +75,9 @@
   .box {
     min-width: 210px !important;
   }
+  .theme5-title {
+    top: 8% !important;
+  }
   .cards__container {
     height: 60% !important;
   }

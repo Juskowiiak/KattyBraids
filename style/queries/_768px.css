@@ -15,24 +15,29 @@
     border: 3px solid red !important;
   }
   /* _____________________THEME5_______________________ */
+
   .box {
     min-width: 200px !important;
     height: 90% !important;
   }
+  .theme5-title {
+    top: 15% !important;
+  }
   .cards__container {
     height: 50% !important;
+    border: 3px solid rgb(255, 16, 203) !important;
   }
   .box:nth-child(1) {
-    left: 43%;
+    left: 43% !important;
   }
   .box:nth-child(2) {
-    left: 20%;
+    left: 20% !important;
   }
   .box:nth-child(4) {
-    left: -20%;
+    left: -20% !important;
   }
   .box:nth-child(5) {
-    left: -43%;
+    left: -43% !important;
   }
   .box:nth-child(2n) {
     transform: scale(0.75);
