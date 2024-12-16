@@ -10,3 +10,4 @@ function fecharGallery() {
   gallery.classList.toggle("galleryOpen");
   document.body.style.overflowY = "scroll";
 }
+

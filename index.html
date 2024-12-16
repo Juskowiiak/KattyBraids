@@ -7,29 +7,40 @@
     <meta name="description" content="Braids Website" />
     <link rel="icon" href="./pict/header_main/favicon.ico" />
     <link rel="stylesheet" href="./style.css" />
+    <!-- Icons -->
     <link
       rel="stylesheet"
       href="https://unpkg.com/boxicons@latest/css/boxicons.min.css"
     />
+    <!-- Font -->
     <link
       href="https://fonts.googleapis.com/css2?family=Baskervville:ital@0;1&family=Marck+Script&display=swap"
       rel="stylesheet"
     />
+    <!-- Effects -->
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
     <title>KattyBraids</title>
   </head>
   <body>
     <header>
       <nav>
-        <div class="nav-logo" id="#">
+        <div class="nav-logo" id="home">
           <img src="./pict/header_main/logo.png" title="Katy Braids" />
         </div>
         <ul class="navegador">
-          <li title="Home"><a href="#">Home</a></li>
-          <li title="What I do"><a href="#">What I do</a></li>
-          <li title="Gallery"><a href="#">Gallery</a></li>
-          <li title="Reels"><a href="#">Reels</a></li>
-          <li title="Contacts"><a href="#">Contacts</a></li>
-          <li title="Fechar" class="fecharMenu" onclick="fecharMenu()">
+          <li class="opcao" title="Home"><a href="#home">Home</a></li>
+          <li class="opcao" title="What I do"><a href="#do">What I do</a></li>
+          <li class="opcao" title="Gallery"><a href="#gallery">Gallery</a></li>
+          <li class="opcao" title="Reels"><a href="#reels">Reels</a></li>
+          <li class="opcao" title="Contacts">
+            <a href="#contact">Contacts</a>
+          </li>
+          <li
+            class="opcao"
+            title="Fechar"
+            class="fecharMenu"
+            onclick="fecharMenu()"
+          >
             <p>x</p>
           </li>
         </ul>
@@ -49,22 +60,22 @@
         </div>
       </main>
     </header>
-    <section class="theme theme1">
+    <section class="theme1" id="do">
       <h2 class="theme1-title">What i do ?</h2>
       <ul>
-        <li>
+        <li data-aos="fade-up" data-aos-delay="400">
           <div class="theme1-pict">
             <img src="./pict/theme1/s1.png" title="Tranças" />
           </div>
           <p class="theme1-text">Tranças</p>
         </li>
-        <li>
+        <li data-aos="fade-up" data-aos-delay="700">
           <div class="theme1-pict">
             <img src="./pict/theme1/s2.png" title="FauxLocs" />
           </div>
           <p class="theme1-text">FauxLocs</p>
         </li>
-        <li>
+        <li data-aos="fade-up" data-aos-delay="1000">
           <div class="theme1-pict">
             <img src="./pict/theme1/s3.png" title="Twists" />
           </div>
@@ -72,7 +83,7 @@
         </li>
       </ul>
     </section>
-    <section class="theme theme2">
+    <section class="theme2">
       <div class="theme2-pict-title">
         <h2>Eu transformo</h2>
         <h2 class="theme2-life">
@@ -93,15 +104,15 @@
         </div>
       </div>
     </section>
-    <section class="theme theme3">
-      <div class="theme3-box">
+    <section class="theme3">
+      <div class="theme3-box" data-aos="zoom-in-down" data-aos-delay="300">
         <img src="./pict/theme3/pict2.png" title="pict1" />
       </div>
-      <div class="theme3-box">
+      <div class="theme3-box" data-aos="zoom-in-down" data-aos-delay="300">
         <img src="./pict/theme3/pict1.png" title="pict2" />
       </div>
     </section>
-    <section class="theme gallery">
+    <section class="gallery" id="gallery">
       <div class="gallery-text">
         <h3>Cada trança, uma nova <span>história</span>.</h3>
         <p onclick="abrirGallery()">Abrir Galeria</p>
@@ -153,12 +164,12 @@
         <p title="fechar" class="fecharGallery" onclick="fecharGallery()">x</p>
       </ul>
     </section>
-    <section class="theme theme4">
+    <section class="theme4">
       <div class="theme4-pict">
         <img title="pict3" src="./pict/theme4/back0.png" />
       </div>
     </section>
-    <section class="theme theme5">
+    <section class="theme5" id="reels">
       <div class="cards-wrapper">
         <h2 class="theme5-title">It's your day to <span>shine</span> girl</h2>
         <i
@@ -259,9 +270,14 @@
         ></i>
       </div>
     </section>
-    <footer>
+    <footer id="contact">
       <div class="footer-title">
-        <img src="./pict/footer/pict2.png" title="footer-pic" />
+        <img
+          src="./pict/footer/pict2.png"
+          title="footer-pic"
+          data-aos="zoom-in-down"
+          data-aos-delay="1000"
+        />
       </div>
       <div class="footer-pict">
         <img src="./pict/footer/pict1.png" title="pict4" />
@@ -282,5 +298,10 @@
     <script src="./java/Carousel.js"></script>
     <script src="./java/Gallery.js"></script>
     <script src="./java/Menu.js"></script>
+    <!-- Effects Scripts -->
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+      AOS.init();
+    </script>
   </body>
 </html>

@@ -1,12 +1,11 @@
+const navegador = document.querySelector(".navegador");
 //abrir Menu
 function abrirMenu() {
-  const navegador = document.querySelector(".navegador");
   navegador.classList.toggle("closeMenu");
   document.body.style.overflowY = "hidden";
 }
 //fechar Menu
 function fecharMenu() {
-  const navegador = document.querySelector(".navegador");
   navegador.classList.toggle("closeMenu");
   document.body.style.overflowY = "scroll";
 }
@@ -19,3 +18,11 @@ function ajustar() {
     document.body.style.overflowY = "scroll";
   }
 }
+
+//quando elemento clicado fecha o menu
+const elementos = document.querySelectorAll(".opcao").forEach((dado) => {
+  dado.addEventListener("click", () => {
+    navegador.classList.toggle("closeMenu");
+    document.body.style.overflowY = "scroll";
+  });
+});
