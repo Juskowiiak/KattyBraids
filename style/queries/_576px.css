@@ -65,8 +65,8 @@
 
   /* _____________________THEME5_______________________ */
   .theme5-title {
-    top: 9% !important;
-    font-size: 5vh;
+    top: 4% !important;
+    font-size: 4.2vhvh;
   }
   .cards__container {
   }
@@ -82,4 +82,12 @@
   .box:nth-child(5) {
     left: -52% !important;
   }
+}
+/* ____________________Footer____________________*/
+.footer-title {
+  font-family: var(--letra1);
+  font-size: 4vh;
+}
+.footer-pict {
+  width: 80% !important;
 }

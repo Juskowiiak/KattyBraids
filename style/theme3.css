@@ -13,7 +13,7 @@
   width: 400px;
   height: 300px;
   position: relative;
-  border-radius: 10px;
+  border-radius: 20px;
   transition: 0.3s;
 }
 .theme3-box::after {
@@ -41,6 +41,6 @@
   border-radius: 15px;
 }
 .theme3-box img {
-  border-radius: 10px;
+  border-radius: 13px;
   background-color: #fff;
 }

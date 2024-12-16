@@ -49,3 +49,8 @@
     transform: scale(0.65);
   }
 }
+/* ________________________Footer______________________*/
+.footer-title {
+  border: 1px solid red;
+  font-size: 6.6vh;
+}
