@@ -2,26 +2,23 @@
   main {
     background-size: 120% 100%;
     padding-bottom: 14% !important;
-
   }
   .main-info {
     width: 85%;
   }
-
   /*_____________________ Theme1__________________*/
-
+  .theme1-title {
+    font-size: 9vh;
+  }
   .theme1 ul li {
-    border: 3px solid rgb(219, 19, 186) !important;
     min-width: 180px !important;
     min-height: 180px !important;
   }
   /* _____________THEME2_________________ */
   .theme2 {
-    height: 85% !important;
+    justify-content: space-evenly;
   }
-  .theme2-pict-title {
-    width: 390px !important;
-  }
+
   .theme2-part1-pict {
     width: 360px !important;
     height: 350px !important;

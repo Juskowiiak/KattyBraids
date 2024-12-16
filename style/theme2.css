@@ -2,38 +2,46 @@
 @import url(./query.css);
 
 .theme2 {
-  border: 5px solid rgb(226, 111, 17);
   width: 100%;
-  height: 100%;
   display: flex;
-  justify-content: center;
-  align-items: center;
   flex-direction: column;
+  padding-inline: 3%;
+  justify-content: space-between;
+  gap: 7vh;
+  border: 2px solid red;
 }
-/* _____________________ PICT-TITLE _____________________ */
+/* _____________________ TITLE _____________________ */
 .theme2-pict-title {
-  border: 3px solid pink;
-  width: 500px;
-  margin-inline: auto;
-  margin-bottom: 3%;
-  transition: 0.3s;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
 }
-.theme2-pict-title img {
-  object-fit: contain;
+.theme2-title-text {
+  color: var(--cor5);
+  font-family: var(--letra1);
+  font-size: 8.5vh;
+  font-style: italic;
+  font-weight: bold;
+  transition: 0.5s;
+}
+.theme2-title-pict {
+  width: auto;
+  height: 80%;
+  object-fit: cover;
 }
 /* _____________________ THEME2-PART1 _____________________ */
 .theme2-part1 {
-  border: 3px solid rgb(255, 10, 10);
   width: 100%;
   display: flex;
   align-items: center;
   justify-content: center;
 }
 .theme2-part1-pict {
-  border: 5px solid blue;
+  border: 5px solid var(--cor5);
   width: 500px;
   height: 500px;
-  padding: 16px;
+  padding: 20px;
   transition: 0.3s;
 }
 .theme2-part1-pict img {
@@ -45,7 +53,11 @@
   display: flex;
   align-items: center;
   color: #fff;
-  background-color: blue;
-  width: 400px;
+  background-color: var(--cor5);
+  width: 360px;
+  font-family: var(--letra);
+  font-style: italic;
+  font-size: 3.5vh;
+  box-shadow: 2px 4px 5px #000;
 }
 /* _____________________ THEME2-PART2 _____________________ */

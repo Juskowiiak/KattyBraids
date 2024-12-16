@@ -1,14 +1,7 @@
 @media screen and (max-width: 768px) {
-  /*_____________________ Theme1 ___________________*/
-
-  .theme1 ul li {
-    border: 3px solid red !important;
-    min-width: 220px;
-    min-height: 220px;
-  }
   /* _____________________Theme2______________________*/
-  .theme2-part1-pict {
-    background-color: pink;
+  .theme2-title-text {
+    font-size: 7vh;
   }
   /*______________________Theme4______________________*/
   .theme4 {

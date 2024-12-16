@@ -9,6 +9,10 @@
     min-width: 140px !important;
     min-height: 140px !important;
   }
+  /*_____________________ Theme2________________________*/
+  .theme2-title-text {
+    font-size: 6vh;
+  }
   /* _____________________THEME5_______________________ */
   .box {
     width: 70% !important;
