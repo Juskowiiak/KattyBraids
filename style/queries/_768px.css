@@ -16,9 +16,7 @@
   .theme4 {
     height: 60%;
   }
-  .theme4-pict {
-    border: 3px solid red !important;
-  }
+
   /* _____________________THEME5_______________________ */
 
   .box {
@@ -26,11 +24,11 @@
     height: 90% !important;
   }
   .theme5-title {
-    top: 15% !important;
+    top: 9% !important;
+    font-size: 6vh;
   }
   .cards__container {
     height: 50% !important;
-    border: 3px solid rgb(255, 16, 203) !important;
   }
   .box:nth-child(1) {
     left: 43% !important;

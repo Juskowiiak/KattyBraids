@@ -85,7 +85,6 @@
   /*_____________________ Theme3_______________*/
 
   .theme3 {
-    border: 1px solid greenyellow !important;
     flex-direction: column-reverse;
     gap: 10%;
   }
@@ -98,7 +97,7 @@
     min-width: 210px !important;
   }
   .theme5-title {
-    top: 8% !important;
+    top: 4% !important;
   }
   .cards__container {
     height: 60% !important;

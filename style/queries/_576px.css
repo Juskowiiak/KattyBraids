@@ -25,10 +25,10 @@
     gap: 5vh;
   }
   .theme2-pict-title {
-    font-size: 5vh !important;
+    font-size: 4.5vh !important;
   }
   .theme2-life {
-    font-size: 7vh;
+    font-size: 6.5vh;
     gap: 10px;
   }
 
@@ -44,7 +44,11 @@
   }
 
   /*_____________________ Theme3_______________*/
-
+  .gallery-text h3 {
+    font-size: 4vh;
+    font-style: italic;
+    font-family: var(--letra);
+  }
   .theme3-box {
     width: 320px !important;
     height: 240px !important;
@@ -58,9 +62,13 @@
     width: 260px !important;
     box-shadow: 3px 3px 3px rgb(50, 216, 8);
   }
+
   /* _____________________THEME5_______________________ */
+  .theme5-title {
+    top: 9% !important;
+    font-size: 5vh;
+  }
   .cards__container {
-    border: 3px solid rgb(24, 228, 51) !important;
   }
   .box:nth-child(1) {
     left: 52% !important;

@@ -5,7 +5,6 @@
   height: 100%;
   width: 100%;
   position: relative;
-  border: 1px solid red;
   justify-content: center;
   align-items: center;
   padding-inline: 2%;
@@ -14,7 +13,6 @@
   align-items: center;
 }
 .theme4-pict {
-  border: 1px solid blue;
   transition: 0.5s;
 }
 .theme4-pict img {

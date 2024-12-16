@@ -7,11 +7,11 @@
   position: relative;
 }
 .bl {
-  left: 4%;
+  left: 3%;
   box-shadow: 2px 1px 3px #000;
 }
 .br {
-  right: 4%;
+  right: 3%;
   box-shadow: -2px 1px 3px #000;
 }
 #btnArrowL,
@@ -29,7 +29,7 @@
   font-size: 1.3rem;
   cursor: pointer;
   color: #fff;
-  background-color: cornflowerblue;
+  background-color: var(--cor5);
 }
 
 .cards-wrapper {
@@ -39,15 +39,21 @@
   align-items: center;
   justify-content: center;
   position: relative;
-  border: 2px solid red;
 }
 /*____________________________Title________________________*/
 .theme5-title {
-  border: 1px solid red;
   position: absolute;
   top: 0;
   left: 50%;
+  width: 100%;
+  text-align: center;
   transform: translateX(-50%);
+  color: var(--cor5);
+  font-family: var(--letra);
+  font-size: 7vh;
+}
+.theme5-title span {
+  animation: galeria 1.7s infinite alternate-reverse linear;
 }
 
 /* ____________________Carousel __________________  */
@@ -58,7 +64,6 @@
   align-items: center;
   width: 86%;
   overflow: hidden;
-  border: 2px solid blue;
 }
 .box {
   height: 90%;
@@ -103,4 +108,13 @@
 }
 video {
   object-fit: cover;
+}
+/*_______________________Animation_____________*/
+@keyframes galeria {
+  from {
+    text-shadow: 0px 0px 2px var(--cor2);
+  }
+  to {
+    text-shadow: 0px 0px 2px var(--cor5);
+  }
 }
