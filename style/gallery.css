@@ -10,6 +10,7 @@
   position: relative;
   background-color: var(--cor5);
   color: #fff;
+  margin-bottom: 35vh;
 }
 
 .gallery-text h3 {

@@ -8,6 +8,7 @@
   padding-inline: 3%;
   justify-content: space-between;
   gap: 10vh;
+  margin-bottom: 5vh;
 }
 /* _____________________ TITLE _____________________ */
 .theme2-pict-title {
@@ -46,10 +47,23 @@
   height: 500px;
   padding: 20px;
   transition: 0.3s;
+  position: relative;
+}
+/*por causa do title*/
+.theme2-part1-pict::after {
+  position: absolute;
+  content: "";
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  background-color: transparent;
+  z-index: 2;
 }
 .theme2-part1-pict img {
   object-fit: cover;
 }
+
 .theme2-part1-text {
   min-height: 180px;
   transition: 0.3s;

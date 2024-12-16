@@ -50,7 +50,7 @@
   }
 }
 /* ________________________Footer______________________*/
-.footer-title {
-  border: 1px solid red;
-  font-size: 6.6vh;
+
+.footer-pict {
+  width: 80% !important;
 }

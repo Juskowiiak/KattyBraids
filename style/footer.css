@@ -7,25 +7,20 @@ footer {
   flex-direction: column;
   justify-content: flex-end;
   align-items: center;
-  gap: 10%;
-  border: 1px solid red;
-  padding-bottom: 2rem;
+  padding-bottom: 2.6rem;
   border-radius: 0 0 60px 60px;
   background: linear-gradient(0deg, var(--cor5) 10%, transparent 30%);
 }
 .footer-title {
-  font-family: var(--letra1);
-  font-size: 8vh;
-  transition: 0.5s;
+  width: 50%;
 }
-.footer-title span {
-  font-weight: bold;
-  color: var(--cor5);
-  text-shadow: 1px 1px 1px #000;
-  text-decoration: underline;
-}
+
 .footer-pict {
-  width: 60%;
+  width: 70%;
+  margin-block: 5rem 4rem;
+}
+.footer-pict img {
+  object-fit: contain;
 }
 .footer-text {
   display: flex;

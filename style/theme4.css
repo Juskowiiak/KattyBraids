@@ -11,6 +11,7 @@
   display: flex;
   justify-content: center;
   align-items: center;
+  margin-bottom: 35vh;
 }
 .theme4-pict {
   transition: 0.5s;
