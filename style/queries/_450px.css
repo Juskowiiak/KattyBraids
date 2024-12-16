@@ -5,7 +5,6 @@
   }
   /*_____________________ Theme1________________________*/
   .theme1 ul li {
-    border: 3px solid orange !important;
     min-width: 140px !important;
     min-height: 140px !important;
   }

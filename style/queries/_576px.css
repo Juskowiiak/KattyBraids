@@ -8,17 +8,28 @@
   }
   /*_____________________ Theme1__________________*/
   .theme1-title {
-    font-size: 9vh;
+    font-size: 7vh;
   }
   .theme1 ul li {
     min-width: 180px !important;
     min-height: 180px !important;
   }
+  .theme1-text {
+    font-size: 1.5vh;
+    padding-bottom: 8px;
+  }
   /* _____________THEME2_________________ */
   .theme2 {
     justify-content: space-evenly;
   }
-
+  .theme2-title-text {
+    font-size: 5.5vh;
+  }
+  .theme2-title-pict {
+    width: 40px;
+    height: 40px;
+    object-fit: contain;
+  }
   .theme2-part1-pict {
     width: 360px !important;
     height: 350px !important;

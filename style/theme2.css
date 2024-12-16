@@ -8,7 +8,6 @@
   padding-inline: 3%;
   justify-content: space-between;
   gap: 7vh;
-  border: 2px solid red;
 }
 /* _____________________ TITLE _____________________ */
 .theme2-pict-title {
@@ -26,8 +25,8 @@
   transition: 0.5s;
 }
 .theme2-title-pict {
-  width: auto;
-  height: 80%;
+  width: 60px;
+  height: 60px;
   object-fit: cover;
 }
 /* _____________________ THEME2-PART1 _____________________ */
