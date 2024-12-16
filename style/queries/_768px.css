@@ -1,9 +1,17 @@
 @media screen and (max-width: 768px) {
   /* _____________________Theme2______________________*/
-  .theme2-title-text {
-    font-size: 7vh;
-  }
 
+  .theme2-pict-title {
+    flex-direction: column;
+    line-height: 35px;
+  }
+  .theme2-life {
+    font-size: 8vh;
+  }
+  .theme2-life-pict {
+    width: 40px;
+    height: 40px;
+  }
   /*______________________Theme4______________________*/
   .theme4 {
     height: 60%;

@@ -65,6 +65,9 @@
   .theme2 {
     justify-content: space-between;
   }
+  .theme2-pict-title {
+    font-size: 6vh;
+  }
   .theme2-part1 {
     flex-direction: column;
   }

@@ -7,11 +7,10 @@
   flex-direction: column;
   padding-inline: 3%;
   justify-content: space-between;
-  gap: 7vh;
+  gap: 10vh;
 }
 /* _____________________ TITLE _____________________ */
-
-.theme2-title-text {
+.theme2-pict-title {
   color: var(--cor5);
   font-family: var(--letra1);
   font-size: 8.5vh;
@@ -22,11 +21,16 @@
   display: flex;
   align-items: center;
   justify-content: center;
-  gap: 10px;
+  gap: 25px;
 }
-.theme2-title-pict {
-  height: 50px;
-  width: 50px;
+.theme2-life {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+.theme2-life-pict {
+  height: 65px;
+  width: 65px;
   object-fit: contain;
 }
 /* _____________________ THEME2-PART1 _____________________ */

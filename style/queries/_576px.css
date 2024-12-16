@@ -22,13 +22,16 @@
   .theme2 {
     justify-content: space-evenly;
     height: 90%;
-    border: 2px solid red;
+    gap: 5vh;
+  }
+  .theme2-pict-title {
+    font-size: 5vh !important;
+  }
+  .theme2-life {
+    font-size: 7vh;
+    gap: 10px;
   }
 
-  .theme2-title-pict {
-    width: 30px;
-    height: 30px;
-  }
   .theme2-part1-pict {
     width: 320px !important;
     height: 320px !important;
