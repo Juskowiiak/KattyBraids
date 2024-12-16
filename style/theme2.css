@@ -10,12 +10,7 @@
   gap: 7vh;
 }
 /* _____________________ TITLE _____________________ */
-.theme2-pict-title {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  gap: 10px;
-}
+
 .theme2-title-text {
   color: var(--cor5);
   font-family: var(--letra1);
@@ -23,11 +18,16 @@
   font-style: italic;
   font-weight: bold;
   transition: 0.5s;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
 }
 .theme2-title-pict {
-  width: 60px;
-  height: 60px;
-  object-fit: cover;
+  height: 50px;
+  width: 50px;
+  object-fit: contain;
 }
 /* _____________________ THEME2-PART1 _____________________ */
 .theme2-part1 {

@@ -21,24 +21,25 @@
   /* _____________THEME2_________________ */
   .theme2 {
     justify-content: space-evenly;
+    height: 90%;
+    border: 2px solid red;
   }
-  .theme2-title-text {
-    font-size: 5.5vh;
-  }
+
   .theme2-title-pict {
-    width: 40px;
-    height: 40px;
-    object-fit: contain;
+    width: 30px;
+    height: 30px;
   }
   .theme2-part1-pict {
-    width: 360px !important;
-    height: 350px !important;
+    width: 320px !important;
+    height: 320px !important;
     border-bottom: 0 !important;
     padding: 10px !important;
   }
   .theme2-part1-text {
-    width: 400px !important;
+    width: 380px !important;
+    font-size: 2.6vh;
   }
+
   /*_____________________ Theme3_______________*/
 
   .theme3-box {
