@@ -7,6 +7,9 @@
     width: 85%;
   }
   /*_____________________ Theme1__________________*/
+  .theme1 {
+    margin-bottom: 10vh !important;
+  }
   .theme1-title {
     font-size: 7vh;
   }
@@ -23,6 +26,7 @@
     justify-content: space-evenly;
     height: 90%;
     gap: 5vh;
+    margin-bottom: 15vh;
   }
   .theme2-pict-title {
     font-size: 4.5vh !important;
@@ -64,12 +68,14 @@
   }
 
   /* _____________________THEME5_______________________ */
+  .theme5 {
+    margin-bottom: 10vh;
+  }
   .theme5-title {
     top: 4% !important;
-    font-size: 4.2vhvh;
+    font-size: 4.2vh;
   }
-  .cards__container {
-  }
+
   .box:nth-child(1) {
     left: 52% !important;
   }

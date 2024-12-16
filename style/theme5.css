@@ -53,8 +53,8 @@
   font-family: var(--letra);
   font-size: 7vh;
 }
-.theme5-title span {
-  animation: galeria 1.7s infinite alternate-reverse linear;
+.theme5 span {
+  animation: brilho 1.4s infinite alternate-reverse linear;
 }
 
 /* ____________________Carousel __________________  */
@@ -111,11 +111,11 @@ video {
   object-fit: cover;
 }
 /*_______________________Animation_____________*/
-@keyframes galeria {
+@keyframes brilho {
   from {
-    text-shadow: 0px 0px 2px var(--cor2);
+    text-shadow: 0 0 3px var(--cor2);
   }
   to {
-    text-shadow: 0px 0px 2px var(--cor5);
+    text-shadow: 0 0 3px var(--cor5);
   }
 }

@@ -7,6 +7,7 @@
   flex-direction: column;
   justify-content: space-evenly;
   align-items: center;
+  margin-top: 5vh;
   margin-bottom: 20vh;
 }
 .theme1-title {
