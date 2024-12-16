@@ -55,6 +55,7 @@
     var(--cor5) 23%,
     rgba(255, 255, 255, 1) 94%
   );
+  display: none;
 }
 /* o ultimo filho é o botao fechar*/
 .gallery-photo li {
