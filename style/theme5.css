@@ -54,7 +54,7 @@
   font-size: 7vh;
 }
 .theme5 span {
-  animation: brilho 1.4s infinite alternate-reverse linear;
+  text-shadow: 0 0 1px var(--cor2);
 }
 
 /* ____________________Carousel __________________  */
@@ -111,11 +111,3 @@ video {
   object-fit: cover;
 }
 /*_______________________Animation_____________*/
-@keyframes brilho {
-  from {
-    text-shadow: 0 0 3px var(--cor2);
-  }
-  to {
-    text-shadow: 0 0 3px var(--cor5);
-  }
-}
